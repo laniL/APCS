@@ -1,4 +1,4 @@
-package num;
+package numCalc;
 
 import java.util.Scanner;
 
