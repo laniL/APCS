@@ -13,15 +13,30 @@ public class StarsAndStripes
 	{
 		System.out.print("**********");
 	}
-
-	public void printTenDashes() 
+	
+	public void printFourtyDashes()
 	{
-		System.out.print("----------");
+		System.out.println("----------------------------------------");
 	}
 
+	public void printThirtyDashes() 
+	{
+		System.out.println("------------------------------");
+	}
+	
+	public void printBlankStripe()
+	{
+		System.out.println("                              ");
+	}
+	
+	public void printBigBlankStripe()
+	{
+		System.out.println("                                        ");
+	}
+	
 	public void printBlankLines()
 	{
-		System.out.println("/n/n");
+		System.out.println("\n\n");
 	}
 	
 	public void printASmallBox()
