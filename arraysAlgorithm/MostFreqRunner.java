@@ -1,7 +1,5 @@
 package arraysAlgorithm;
 
-import java.util.*;
-
 public class MostFreqRunner
 {
 	public static void main( String args[] )

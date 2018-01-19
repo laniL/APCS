@@ -1,7 +1,5 @@
 package arraysAlgorithm;
 
-import arrays.RaySumLast;
-
 public class DownRunner {
 
 	public static void main(String[] args) {
