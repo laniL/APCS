@@ -8,9 +8,13 @@ public class Runner {
 	Scanner keyboard = new Scanner(System.in);
 	System.out.println("What size would you like the lists? ");
 	int x = keyboard.nextInt();
+	System.out.println("Minimum value: ");
+	int y = keyboard.nextInt();
+	System.out.println("Maximum value: ");
+	int z = keyboard.nextInt();
 	for (int i=0;i<5; i++) {
 		for (int a=0; a<x; a++) {
-			raylist.add((int)(Math.random()*20));
+			raylist.add((int)(Math.random()*(z-y+1)+y));
 		}
 		System.out.println(raylist);
 		System.out.println("Sum: " + ListTotal.go(raylist));
@@ -21,6 +25,5 @@ public class Runner {
 		System.out.println();
 		raylist.clear();
 	}
-	
 	}
 }
